@@ -9,10 +9,10 @@
  * ```js
  * const a = []
  * dataType(a)
- * // 回傳 => 'array'
+ * //  => 'array'
  *
  * dataType(a,'array')
- * // 回傳 => true
+ * //  => true
  * ```
  */
 
