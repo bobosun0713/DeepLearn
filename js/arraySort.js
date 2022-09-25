@@ -5,9 +5,9 @@ const a = [1, 2, 3, 4, 5, 6]
  * @description
  * 陣列排序
  *
- * @param {*} data 陣列資料
- * @param {*} sortType 排序模式 預設 asc
- * @param {*} mapKey 排序對應的 key 預設為 id ，如為單純陣列，可不傳
+ * @param {object[]} data 陣列資料
+ * @param {string} sortType 排序模式 預設 asc
+ * @param {string} mapKey 排序對應的 key 預設為 id ，如為單純陣列，可不傳
  *
  * @example
  * ```js
