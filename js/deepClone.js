@@ -1,6 +1,7 @@
 /**
- * 深拷貝
- * @param {(object|object[])} obj 陣列 / 物件 * 
+ * @description 深拷貝
+ * @param {object|object[]} obj 陣列 / 物件 * 
+ * @return {object|array}
  * 
  * @example
  * ```js
