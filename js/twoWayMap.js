@@ -1,9 +1,8 @@
 /**
- * @description
- * 物件-雙向映射
- *
+ * @description 物件-雙向映射
  * @param {object} target 物件
-
+ * @return {object}
+ * 
  * @example
  * ```js
  * const obj = {name:'test'}
