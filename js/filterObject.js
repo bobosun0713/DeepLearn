@@ -1,9 +1,8 @@
 /**
- * @description
- * 過濾物件屬性
- *
+ * @description 過濾物件屬性
  * @param {object} target 物件資料
  * @param {object[]} ary 需要過濾的屬性
+ * @return {object|boolean}
 
  * @example
  * ```js
@@ -15,7 +14,7 @@
  */
 
 function filterObject(target, ary = []) {
-  if (!ary.length) return target;
+  if (!ary.length) return false;
   return Object.keys(target)
     .filter((item) => {
       return !ary.includes(item);
@@ -26,4 +25,4 @@ function filterObject(target, ary = []) {
     }, {});
 }
 
-filterObject(obj,['name'])
+filterObject(obj, ["name"]);
