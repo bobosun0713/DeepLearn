@@ -14,7 +14,7 @@ function isEqual(obj1, obj2) {
   if (Object.keys(obj1).length !== Object.keys(obj2).length) return false;
 
   for (const key in obj1) {
-    if (areDeeplyEqual(obj1[key], obj2[key])) {
+    if (isEqual(obj1[key], obj2[key])) {
       continue;
     }
     return false;
@@ -22,3 +22,8 @@ function isEqual(obj1, obj2) {
 
   return true;
 }
+
+let a = { x: { x: { x: { x: { x: 1, y: 2 } } } } };
+let b = { x: { x: { x: { x: { y: 2, x: 1 } } } } };
+
+console.log(isEqual(a, b));
