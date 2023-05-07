@@ -1,7 +1,5 @@
 /**
- * @description
- * 節流
- *
+ * @description 節流
  * @param {function} fn 傳入要被執行的函式
  * @param {number} delay 延遲幾毫後觸發 預設500ms
  *
